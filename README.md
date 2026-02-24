@@ -54,6 +54,16 @@ brew install curl jq python3
 
 ## Installation
 
+Download the [latest release](https://github.com/nifri/claude-skill-venice-ai-media/releases/latest) and run the installer:
+
+```bash
+curl -sL https://github.com/nifri/claude-skill-venice-ai-media/archive/refs/tags/v1.1.0.tar.gz | tar xz
+cd claude-skill-venice-ai-media-1.1.0
+bash install.sh
+```
+
+Or clone the repo if you prefer:
+
 ```bash
 git clone https://github.com/nifri/claude-skill-venice-ai-media.git
 cd claude-skill-venice-ai-media
